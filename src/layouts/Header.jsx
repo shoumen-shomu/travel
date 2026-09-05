@@ -6,7 +6,7 @@ import { MdMessage } from "react-icons/md";
 import { FaLocationArrow, FaHeart, FaPlus } from "react-icons/fa";
 
 const Header = () => {
-  const navitems = [
+  const navItems = [
     { name: "HOME", path: "/" },
     { name: "PAGES", path: "/pages" },
     { name: "TRAVEL", path: "/travel" },
@@ -23,16 +23,17 @@ const Header = () => {
   ];
   return (
     <>
-      <section>
+      <header>
         <div className="pt-3.25 pb-3.75 bg-white">
           <Container>
             <div className="flex items-center justify-between">
               <div className="logo">
-                <Images imgSrc={logo} />
+                <Link to="/" aria-lebel="Go to Homepage">
+                <Images imgSrc={logo} /></Link>
               </div>
               <nav className="menu">
                 <ul className="flex gap-12">
-                  {navitems.map(({ path, name }) => (
+                  {navItems.map(({ path, name }) => (
                     <li
                       className="font-mont font-medium text-[15px] text-[#036E8A]"
                       key={path}
@@ -57,7 +58,7 @@ const Header = () => {
             </div>
           </Container>
         </div>
-      </section>
+      </header>
     </>
   );
 };
