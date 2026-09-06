@@ -24,7 +24,7 @@ const Header = () => {
   return (
     <>
       <header>
-        <div className="pt-3.25 pb-3.75 bg-white">
+        <div className="pt-3.25 pb-3.75 bg-white absolute w-full top-10 left-0 z-10 ">
           <Container>
             <div className="flex items-center justify-between">
               <div className="logo">
