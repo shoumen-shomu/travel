@@ -15,7 +15,7 @@ const Banner = () => {
             CHOOSE <br />
             THE PERFECT <br /> DESTINATIONS.
           </h1>
-          <p className="font-mont font-normal text-[20px] text-white mb-11.25">
+          <p className="font-mont font-normal text-[20px] text-white mb-11.25 w-[713px]">
             Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
             nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat
             volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation.

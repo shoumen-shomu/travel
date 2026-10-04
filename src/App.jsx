@@ -11,6 +11,9 @@ function App() {
  <Routes>
   <Route path ="/" element={<RootLayout/>}>
   <Route index element={<Home/>}/>
+  {/* <Route index element={<Home/>}/>
+  <Route index element={<Home/>}/>
+  <Route index element={<Home/>}/> */}
   </Route>
   </Routes>
   </>
