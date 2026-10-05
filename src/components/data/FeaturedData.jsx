@@ -1,10 +1,13 @@
-import featuredImg from "../../assets/featuredImg.png"
-export const featuredData = {
+import featuredImg from "../../assets/featuredImg.png";
 
-    label : "Featured Destination",
-    title : "Choose the perfect accommodation",
-    description :"Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.",
-    image : featuredImg,
-    imageAlt : "Featured accommodation"
-
-}
+export const featuredData = [
+  {
+    id: 1,
+    label: "Featured Destination",
+    title: "Choose the perfect accommodation",
+    description:
+      "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.",
+    image: featuredImg,
+    imageAlt: "Featured accommodation",
+  },
+];
