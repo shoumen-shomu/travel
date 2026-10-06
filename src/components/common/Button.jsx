@@ -1,6 +1,6 @@
-const Button = ({text})=>{
+const Button = ({children,className})=>{
     return(
-        <div className="">{text}</div>
+        <div className={`font-mont font-bold text-[25px] text-white ${className}`}>{children}</div>
     )
 }
 export default Button
