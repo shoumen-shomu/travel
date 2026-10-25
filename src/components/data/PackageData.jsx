@@ -4,7 +4,7 @@ import Button from "../common/Button";
 const PackageData = ({ }) => {
   return (
     <div className="">
-      <div className="pt-9.25 px-9.25 pb-19 border-[1.5px] border-[#036E8A] rounded-2xl relative w-[357px]">
+      <div className="pt-9.25 px-9.25 pb-19 border-[1.5px] border-[#036E8A] rounded-2xl relative w-[357px] bg-white">
         <h2 className="font-mont font-bold text-[40px] text-[#036E8A]">
           STARTER
         </h2>
