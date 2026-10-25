@@ -1,4 +1,5 @@
 import { featuredData } from "../components/data/FeaturedData";
+import PackageData from "../components/data/PackageData";
 import tourData from "../components/data/TourData";
 import Banner from "../layouts/home/Banner";
 import Featured from "../layouts/home/Featured";

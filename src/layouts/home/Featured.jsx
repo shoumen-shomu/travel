@@ -66,7 +66,8 @@ const Featured = ({ featuredData, tourData }) => {
                           <h2 className="font-mont font-bold text-[60px] text-[#036E8A] leading-none">{`$${item.price}`}</h2>
                         </div>
                       }
-                     <Button className="pt-4 pb-[19px] pl-[48px] pr-[43px] bg-[#FF8000] rounded-[15px]">BOOK NOW</Button>
+                     
+                     <Button className="pt-4 pb-[19px] pl-[48px] pr-[43px] bg-[#FF8000] rounded-[15px]" btnText={"BOOK NOW"}/>
                     
                   </div>
                 </div>
